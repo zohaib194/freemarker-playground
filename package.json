@@ -1,0 +1,25 @@
+{
+  "name": "freemarker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zohaib194/freemarker-playground.git"
+  },
+  "author": "Zohaib Butt <zohaib_b13@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zohaib194/freemarker-playgroud/issues"
+  },
+  "homepage": "https://github.com/zohaib194/freemarker-playgroud#readme",
+  "devDependencies": {
+    "sass": "^1.49.0",
+    "typescript": "^4.5.4",
+    "webpack": "^5.66.0"
+  },
+  "dependencies": {}
+}
