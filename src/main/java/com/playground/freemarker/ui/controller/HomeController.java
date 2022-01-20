@@ -12,8 +12,8 @@ public class HomeController {
     @GetMapping({"/", "/home"})
     public String home(@NotNull Model model) {
         // View model attribute
-        model.addAttribute("vm", new HomeViewModel("Home Screen"));
+        model.addAttribute("vm", new HomeViewModel("Home"));
 
-        return "components/home/HomeScreen"; // name of the template
+        return "/components/home/HomeScreen"; // name of the template
     }
 }

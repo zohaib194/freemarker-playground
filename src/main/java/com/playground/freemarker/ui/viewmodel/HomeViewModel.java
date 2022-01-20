@@ -1,15 +1,14 @@
 package com.playground.freemarker.ui.viewmodel;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NonNull;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class HomeViewModel extends MainLayoutViewModel{
+@AllArgsConstructor
+public class HomeViewModel {
+    @NonNull
     private String title;
-
-    public HomeViewModel(String title) {
-        super(title);
-        this.title = title;
-    }
 }
