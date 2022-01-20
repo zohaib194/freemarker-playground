@@ -1,7 +1,6 @@
 package com.playground.freemarker.ui.controller;
 
 import com.playground.freemarker.ui.viewmodel.HomeViewModel;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 
     @GetMapping({"/", "/home"})
-    public String home(@NotNull Model model) {
+    public String home(Model model) {
         // View model attribute
         model.addAttribute("vm", new HomeViewModel("Home"));
 
