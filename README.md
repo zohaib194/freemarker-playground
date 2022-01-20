@@ -1,11 +1,11 @@
-#Freemarker-Playground
+# Freemarker-Playground
 A playground for testing freemarker, typescript, scss, and spring boot.
 
-##Requirements
+## Requirements
 - nodejs
 - yarn
 
-##How to run
+## How to run
 ```
 ./gradlew bootRun
 ```
