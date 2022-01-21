@@ -4,7 +4,7 @@
         <head>
             <meta charset="UTF-8">
             <title>${title!"Main layout"}</title>
-            <link rel="stylesheet" href="layouts/MainLayout.css" />
+            <link rel="stylesheet" href="layouts/mainLayout.css" />
         </head>
 
         <body class="main-layout">

@@ -1,11 +1,12 @@
 [#ftl]
 [#include '../../layouts/MainLayout.ftl']
 [#-- @ftlvariable name="vm" type="com.playground.freemarker.ui.viewmodel.HomeViewModel" --]
+<link rel="stylesheet" href="/screens/home/HomeScreen.css" />
 
 [@MainLayout title="${vm.title}"]
-    <link rel="stylesheet" href="/components/home/HomeScreen.css" />
+
     <h1 class="home-heading">This is ${vm.title} Component!</h1>
-    <button onclick="executeAction()">Click me!</button>
+    <button onclick="onButtonClick()">Click me!</button>
 [/@MainLayout]
 
-<script type="text/javascript" src="/components/home/homeScreen.js"></script>
+<script type="text/javascript" src="/screens/home/homeScreen.js"></script>

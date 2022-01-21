@@ -1,7 +1,6 @@
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const stylesHandler = "style-loader";
@@ -17,7 +16,7 @@ module.exports = {
 
   entry: {
     'layouts/mainLayout': `${public}/layouts/MainLayout.ts`,
-    'components/home/homeScreen': `${public}/components/home/HomeScreen.ts`,
+    'screens/home/homeScreen': `${public}/screens/home/HomeScreen.ts`,
   },
   output: {
     path: outputPath,
@@ -27,9 +26,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-
-    // Add your plugins here
-    // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],
   module: {
     rules: [
