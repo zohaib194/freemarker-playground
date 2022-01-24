@@ -15,8 +15,8 @@ module.exports = {
   devtool: 'inline-source-map',
 
   entry: {
-    'layouts/mainLayout': `${public}/layouts/MainLayout.ts`,
-    'screens/home/homeScreen': `${public}/screens/home/HomeScreen.ts`,
+    'layouts/MainLayout': `${public}/layouts/MainLayout.ts`,
+    'screens/home/HomeScreen': `${public}/screens/home/HomeScreen.ts`,
   },
   output: {
     path: outputPath,

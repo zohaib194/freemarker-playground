@@ -51,4 +51,15 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    implementation 'org.springframework.boot:spring-boot-gradle-plugin:2.6.3'
+    implementation 'org.springframework:springloaded:1.2.8.RELEASE'
+}
+
+apply plugin: 'idea'
+
+idea {
+    module {
+        inheritOutputDirs = false
+        outputDir = file("$buildDir/classes/main/")
+    }
 }

@@ -9,4 +9,4 @@
     <button onclick="onButtonClick()">Click me!</button>
 [/@MainLayout]
 
-<script type="text/javascript" src="/screens/home/homeScreen.js"></script>
+<script type="text/javascript" src="/screens/home/HomeScreen.js"></script>
