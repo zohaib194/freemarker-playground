@@ -17,6 +17,7 @@ module.exports = {
   entry: {
     'layouts/MainLayout': `${public}/layouts/MainLayout.ts`,
     'screens/home/HomeScreen': `${public}/screens/home/HomeScreen.ts`,
+    'screens/products/ProductsScreen': `${public}/screens/products/ProductsScreen.ts`,
   },
   output: {
     path: outputPath,
@@ -44,11 +45,11 @@ module.exports = {
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
         type: "asset",
-      },
-
-      // Add your rules for custom modules here
-      // Learn more about loaders from https://webpack.js.org/loaders/
+      }
     ],
+  },
+  resolve: {
+    extensions: [".ts", ".tsx", ".js"]
   },
   watchOptions: {
     ignored: ['node_modules']

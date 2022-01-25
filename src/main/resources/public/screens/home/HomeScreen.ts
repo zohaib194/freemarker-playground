@@ -7,4 +7,4 @@ import './HomeScreen.scss'
 // @ts-ignore
 window.onButtonClick = onButtonClick;*/
 
-document.querySelector()
+//document.querySelector()

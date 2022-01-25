@@ -14,6 +14,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/zohaib194/freemarker-playground.git"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript"
+    ]
+  },
   "author": "Zohaib Butt <zohaib_b13@hotmail.com>",
   "license": "MIT",
   "bugs": {

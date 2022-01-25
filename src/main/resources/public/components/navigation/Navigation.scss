@@ -2,3 +2,9 @@
   background-color: beige;
   padding: 3rem;
 }
+
+.custom-nav [aria-current=page] {
+  background-color: #bbb;
+  color: #000;
+  border-bottom: .25em solid #444;
+}
