@@ -1,5 +1,7 @@
 [#include '../navigation/Navigation.ftl']
 
 [#macro Header]
-    [@Navigation][/@Navigation]
+    <header>
+        [@Navigation][/@Navigation]
+    </header>
 [/#macro]
