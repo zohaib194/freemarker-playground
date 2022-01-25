@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 
     @GetMapping({"/", "/home"})
-    public String home(Model model) {
+    public String getTemplateName(Model model) {
         // View model attribute
         model.addAttribute("vm", new HomeViewModel("Home"));
 

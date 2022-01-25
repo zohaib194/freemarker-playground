@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ProductsController {
 
     @GetMapping("/products")
-    public String products(Model model) {
+    public String getTemplateName(Model model) {
 
         model.addAttribute("vm", new ProductsViewModel("Products"));
 

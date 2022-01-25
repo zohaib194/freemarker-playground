@@ -18,6 +18,10 @@ module.exports = {
     'layouts/MainLayout': `${public}/layouts/MainLayout.ts`,
     'screens/home/HomeScreen': `${public}/screens/home/HomeScreen.ts`,
     'screens/products/ProductsScreen': `${public}/screens/products/ProductsScreen.ts`,
+    'screens/about/AboutScreen': `${public}/screens/about/AboutScreen.ts`,
+    'screens/publications/PublicationsScreen': `${public}/screens/publications/PublicationsScreen.ts`,
+    'screens/services/ServicesScreen': `${public}/screens/services/ServicesScreen.ts`,
+    'screens/topics/TopicsScreen': `${public}/screens/topics/TopicsScreen.ts`,
   },
   output: {
     path: outputPath,

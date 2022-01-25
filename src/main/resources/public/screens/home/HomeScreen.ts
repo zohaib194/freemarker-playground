@@ -8,3 +8,4 @@ import './HomeScreen.scss'
 window.onButtonClick = onButtonClick;*/
 
 //document.querySelector()
+console.log("homeScreen.ts loaded!");
