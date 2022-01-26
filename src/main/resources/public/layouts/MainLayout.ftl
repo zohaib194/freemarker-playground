@@ -11,8 +11,6 @@
 
         <body class="main-layout">
             [@Header][/@Header]
-            <h1 class="main-heading">This is Main Layout!</h1>
-
             [#nested]
         </body>
         <script src="layouts/MainLayout.js"></script>
