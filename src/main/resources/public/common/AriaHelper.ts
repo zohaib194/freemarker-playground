@@ -4,6 +4,7 @@ export default class AriaHelper {
         if(navigationAnchors) {
             for(let i = 0; i < navigationAnchors.length; i++) {
                 const path = navigationAnchors[i].pathname;
+                console.log(navigationAnchors[i]);
                 navigationAnchors[i].ariaCurrent = (path.includes(currentPageName)) ? "page" : "";
             }
         }

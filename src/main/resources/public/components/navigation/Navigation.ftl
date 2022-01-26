@@ -2,7 +2,7 @@
 [#macro Navigation]
     <nav class="custom-nav">
         [@Anchor href="/home"class="-navigation" current="page"]
-            <img src="https://p7.hiclipart.com/preview/900/955/672/thermometer-computer-icons-temperature-degree-symbol.jpg" width="80px" alt="Temprature"></img>
+            <img src="https://p7.hiclipart.com/preview/453/536/991/computer-icons-thermometer-temperature-thermometer-icon-vector.jpg" alt="Temprature"></img>
         [/@Anchor]
 
         [@Anchor href="/products" class="-navigation"]Products[/@Anchor]
