@@ -1,0 +1,27 @@
+.site-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  height: 15rem;
+  position: sticky;
+  top: calc( 100vh - 100px );
+  &-container {
+    display: inline-grid;
+  }
+  &-strong{
+    margin: 1rem auto;
+  }
+}
+
+.custom-anchor-signup {
+  height: 1.5rem;
+  width: 15rem;
+  font-size: large;
+  text-decoration: none;
+  background-color: aqua;
+  color: white;
+  margin: 1rem auto;
+}

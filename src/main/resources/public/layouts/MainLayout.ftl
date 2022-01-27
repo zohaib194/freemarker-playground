@@ -1,4 +1,5 @@
 [#include '../components/header/Header.ftl']
+[#include '../components/footer/Footer.ftl']
 
 [#macro MainLayout title]
     <!DOCTYPE html>
@@ -9,11 +10,12 @@
             <link rel="stylesheet" href="layouts/MainLayout.css" />
         </head>
 
-        <body class="main-layout">
+        <body class="start-page">
             [@Header][/@Header]
-            <main class="main">
+            <main class="main-content">
                 [#nested]
             </main>
+            [@Footer][/@Footer]
         </body>
         <script src="layouts/MainLayout.js"></script>
     </html>
