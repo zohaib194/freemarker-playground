@@ -1,10 +1,26 @@
 .custom-anchor {
-  text-decoration: none;
-  color: black;
   &-navigation {
     padding: 1rem;
-    color: black;
+    font-size: larger;
     text-decoration: none;
+    color: black;
+  }
+  &-navigation:hover {
+    text-decoration: underline;
+  }
+
+  &-breadcrumb{
     font-size: large;
+    text-decoration: none;
+    color: black;
+
+    & [aria-current=page] {
+      background-color: #bbb;
+      color: #000;
+    }
+  }
+
+  &-breadcrumb:hover{
+    text-decoration: underline;
   }
 }

@@ -16,8 +16,8 @@ public class ProductsController {
 
         ArrayList<AnchorModel> anchorModels = new ArrayList<>();
 
-        anchorModels.add(new AnchorModel("Home", "/home", null, "breadcrumb"));
-        anchorModels.add(new AnchorModel("Products", "/products", null, "breadcrumb"));
+        anchorModels.add(new AnchorModel("Home", "/home", null, "-breadcrumb", ""));
+        anchorModels.add(new AnchorModel("Products", "/products", null, "-breadcrumb", "page"));
 
         model.addAttribute("vm", new ProductsViewModel("Products", anchorModels));
 

@@ -11,7 +11,9 @@
 
         <body class="main-layout">
             [@Header][/@Header]
-            [#nested]
+            <main class="main">
+                [#nested]
+            </main>
         </body>
         <script src="layouts/MainLayout.js"></script>
     </html>

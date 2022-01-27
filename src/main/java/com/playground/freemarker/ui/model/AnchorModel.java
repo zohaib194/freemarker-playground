@@ -21,4 +21,6 @@ public class AnchorModel {
     private String target;
     @Nullable
     private String scssClass;
+    @Nullable
+    private String ariaCurrent;
 }
