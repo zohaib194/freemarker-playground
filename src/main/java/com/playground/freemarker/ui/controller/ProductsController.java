@@ -1,6 +1,7 @@
 package com.playground.freemarker.ui.controller;
 
 import com.playground.freemarker.ui.model.AnchorModel;
+import com.playground.freemarker.ui.model.ProductAnchorModel;
 import com.playground.freemarker.ui.viewmodel.ProductsViewModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,7 +20,14 @@ public class ProductsController {
         anchorModels.add(new AnchorModel("Home", "/home", null, "-breadcrumb", ""));
         anchorModels.add(new AnchorModel("Products", "/products", null, "-breadcrumb", "page"));
 
-        model.addAttribute("vm", new ProductsViewModel("Products", anchorModels));
+        ArrayList<ProductAnchorModel> productAnchorModels = new ArrayList<>();
+        productAnchorModels.add(new ProductAnchorModel(new AnchorModel("LG", "/product/lg", null, "-product", ""), "https://1000logos.net/wp-content/uploads/2017/03/LG-Logo-1995.jpg"));
+        productAnchorModels.add(new ProductAnchorModel(new AnchorModel("Nokia", "/product/nokia", null, "-product", ""), "https://1000logos.net/wp-content/uploads/2018/08/Nokia-logo-768x432.jpg"));
+        productAnchorModels.add(new ProductAnchorModel(new AnchorModel("Apple", "/product/apple", null, "-product", ""), "https://1000logos.net/wp-content/uploads/2018/08/Apple-logo-768x432.jpg"));
+        productAnchorModels.add(new ProductAnchorModel(new AnchorModel("Samsung", "/product/samsung", null, "-product", ""), "https://1000logos.net/wp-content/uploads/2018/08/Samsung-logo-768x432.jpg"));
+        productAnchorModels.add(new ProductAnchorModel(new AnchorModel("Huawei", "/product/huawei", null, "-product", ""), "https://1000logos.net/wp-content/uploads/2018/08/Huawei-logo-768x432.jpg"));
+
+        model.addAttribute("vm", new ProductsViewModel("Products", anchorModels, productAnchorModels));
 
         return "/screens/products/ProductsScreen";
     }
