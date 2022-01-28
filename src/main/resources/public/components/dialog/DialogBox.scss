@@ -3,7 +3,7 @@
   height: 10rem;
 
   & [aria-hidden=false] {
-    display: block;
+    display: none;
   }
   &-close-button {
     float: bottom;
