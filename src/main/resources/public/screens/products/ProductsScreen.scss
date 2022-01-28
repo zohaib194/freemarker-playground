@@ -29,14 +29,14 @@
   list-style-type: none;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 0.625rem;
   padding-left: 10rem;
   padding-right: 10rem;
 }
 .custom-anchor-product {
   text-decoration: none;
-  display: inline-flex;
+  display: inline;
   float: left;
 
   & > img {
@@ -50,5 +50,6 @@
     color: black;
     margin-top: 2.5rem;
     margin-left: 0.5rem;
+    font-weight: lighter;
   }
 }

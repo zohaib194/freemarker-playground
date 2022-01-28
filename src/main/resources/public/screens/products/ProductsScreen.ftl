@@ -1,6 +1,7 @@
 [#ftl]
 [#include '../../layouts/MainLayout.ftl']
 [#include '../../components/primitives/Anchor/Anchor.ftl']
+[#include '../../components/dialog/DialogBox.ftl']
 <link rel="stylesheet" href="/screens/products/ProductsScreen.css" />
 
 [@MainLayout title="${vm.title}"]
@@ -31,5 +32,6 @@
         [/#list]
     </ul>
 
+    [@DialogBox][/@DialogBox]
 [/@MainLayout]
 <script type="text/javascript" src="screens/products/ProductsScreen.js"></script>
