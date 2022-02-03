@@ -1,11 +1,17 @@
-.dialog-box{
+.dialog-box {
   width: 10rem;
   height: 10rem;
+  display: none;
 
-  & [aria-hidden=false] {
+  & [aria-hidden="true"] {
     display: none;
   }
+
   &-close-button {
     float: bottom;
   }
+}
+
+.show {
+  display: block;
 }

@@ -10,7 +10,8 @@ window.addEventListener("hashchange", (event) => {
     if(hash.includes("lg")) {
         const dialog = document.querySelector(".dialog-box")
         if(dialog) {
-          dialog.setAttribute("aria-hidden", 'true');
+          dialog.setAttribute("aria-hidden", 'false');
+          dialog.classList.add('show');
         }
     }
 }, false);
